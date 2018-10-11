@@ -6,4 +6,4 @@ python:
 install:
   
 script:
-  - python mytests.py
+  - python test_tennis.py
