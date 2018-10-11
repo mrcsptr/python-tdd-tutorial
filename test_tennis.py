@@ -12,7 +12,7 @@ class TestSetWinning(TestCase):
         self.assertEqual("15", set.secondScore())
     def test_player_1_win_when_scores_at_40(self):
         set = Set()
-        set.firstScores(6)
+        set.firstScores(3)
         self.assertEqual(None, set.winner())
         set.firstScores()
         self.assertEqual(1, set.winner())
